@@ -1,0 +1,26 @@
+@mixin font($size, $color, $weight: 400, $lineHeight: 1) {
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+  line-height: $lineHeight;
+}
+
+@mixin truncate($truncation-boundary) {
+  max-width: $truncation-boundary;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin input-placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &:-ms-input-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+
+@mixin hidden {
+  display: none;
+  visibility: hidden;
+}

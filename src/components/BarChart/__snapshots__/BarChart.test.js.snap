@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="bar-chart"
+>
+  <div
+    className="bar"
+    style={
+      Object {
+        "height": "10%",
+      }
+    }
+  >
+    <p
+      className="bar__text"
+    >
+      10
+    </p>
+  </div>
+  <div
+    className="bar"
+    style={
+      Object {
+        "height": "20%",
+      }
+    }
+  >
+    <p
+      className="bar__text"
+    >
+      20
+    </p>
+  </div>
+  <div
+    className="bar"
+    style={
+      Object {
+        "height": "30%",
+      }
+    }
+  >
+    <p
+      className="bar__text"
+    >
+      30
+    </p>
+  </div>
+</div>
+`;
